@@ -1,4 +1,7 @@
 # restful-alpr
+
+This is just an update of mbartoli/restful-alpr.  Credit is due there.
+
 RESTful API for Automatic License Plate Recognition
 <br />
 ##Setup##
