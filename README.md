@@ -4,7 +4,7 @@ RESTful API for Automatic License Plate Recognition
 ##Setup##
 Start the docker container and run the API on port 3000:
 ```
-docker run -p 3000:3000 mbartoli/restful-alpr 
+docker run -p 3000:3000 mikenabhan/restful-alpr 
 ```
    
 ##Example usage##
@@ -112,4 +112,4 @@ curl http://localhost:3000/alpr /
 }
 ```
 <br />
-Docker Hub: [mbartoli/restful-alpr](https://hub.docker.com/r/mbartoli/restful-alpr/)
+Docker Hub: [mikenabhan/restful-alpr](https://hub.docker.com/r/mikenabhan/restful-alpr/)
