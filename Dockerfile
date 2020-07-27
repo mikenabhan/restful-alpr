@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Mike Bartoli "michael.bartoli@pomona.edu"
+MAINTAINER Mike Nabhan "13139061+mikenabhan@users.noreply.github.com"
 # extended from openalcr dockerfile
 
 # Install prerequisites
@@ -27,7 +27,7 @@ RUN apt-get update
 RUN apt-get install -y -f openalpr openalpr-daemon openalpr-utils libopenalpr-dev
 
 WORKDIR /home
-RUN git clone https://github.com/mbartoli/restful-alpr
+RUN git clone https://github.com/mikenabhan/restful-alpr
 WORKDIR /home/restful-alpr/alpr
 
 EXPOSE 3000
